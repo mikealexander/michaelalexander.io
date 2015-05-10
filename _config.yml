@@ -1,0 +1,17 @@
+# Site settings
+title: Michael Alexander.io
+email: me@michaelalexander.io
+description: > # this means to ignore newlines until "baseurl:"
+  Blogging about .NET, Javascript, startups and life.
+about: >
+  My name is Michael Alexander.  I'm a 24 year software engineer living and working in Belfast, Northern Ireland.  I love the .NET
+  technology stack, Javascript, web development and startups.
+  
+  I use this blog to write about things that interest me in the world of technology, startups and life.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://michaelalexander.io" # the base hostname & protocol for your site
+twitter_username: hcfmike
+github_username:  mike-alexander
+
+# Build settings
+markdown: kramdown
