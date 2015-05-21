@@ -157,10 +157,10 @@ pre {
 /**
 * Animate
 */
-@mixin animateFadeIn($time) {
-    -webkit-animation: fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-    -moz-animation: fadeIn ease-in 1;
-	animation: fadeIn ease-in 1;
+@mixin animate($time, $animation) {
+    -webkit-animation: $animation ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation: $animation ease-in 1;
+	animation: $animation ease-in 1;
 	 
 	-webkit-animation-fill-mode: forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
 	-moz-animation-fill-mode: forwards;
@@ -172,7 +172,6 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
@@ -181,8 +180,8 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: 10%;
+    padding-left: 10%;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -231,55 +230,14 @@ pre {
  * Hero
 */
 
+
 .hero {
     background: url('../img/setup.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 100%;
-    @include animateFadeIn(0.2s);
-    
-    .layer {
-        height: 100%;
-        width: 100%;
-        position: relative;
-        
-        
-        div.title {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.7);
-            @include animateFadeIn(0.5s);
-            
-            h1 {
-                font-family: 'Lobster', cursive;
-                font-weight: 400;
-                font-size: 100px;
-                font-size: 4rem;
-                line-height: 4rem;
-                letter-spacing: -4px;
-                margin-bottom: 0;
-            }
-            
-            h2 {
-                margin-top: 0;
-            }
-        }
-        
-        .seperator {
-            background: url('../img/seperator.png');
-            background-repeat: no-repeat;
-            background-position: bottom;
-            background-size: 100%;
-            width: 100%;
-            height: 10px;
-            position: absolute;
-            bottom: 0;
-        }
-    }
+    height: 60%;
+    @include animate(0.6s, growDown);
 }
 
 .panel {

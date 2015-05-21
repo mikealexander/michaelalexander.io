@@ -51,6 +51,10 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+@-webkit-keyframes growDown { from { height:0; } to { height:60%; } }
+@-moz-keyframes growDown { from { height:0; } to { height:60%; } }
+@keyframes growDown { from { height:0; } to { height:60%; } }
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
