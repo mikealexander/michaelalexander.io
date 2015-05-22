@@ -10,6 +10,9 @@
     padding: 10px;
     padding-left: 10%;
     padding-right: 10%;
+    @include media-query($on-laptop) {
+        padding: 10px;
+    }
     opacity: 0.95;
     z-index: 99;
     background: $background-color;
@@ -27,14 +30,14 @@
     h1 {
         font-family: 'Lobster', cursive;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 38px;
         line-height: 40px;
         letter-spacing: -2px;
         margin-bottom: 0;
     }
     
     h2 {
-        font-size: 15px;
+        font-size: 13px;
         line-height: 10px;
     }
     
