@@ -5,10 +5,10 @@ layout: home
 <div class="home">
   
     {% for post in paginator.posts %}
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           {{ post.excerpt }}
-          <a href="{{ post.url | prepend: site.baseurl }}">Read the full post and comments</a></a></a>
+          <a href="{{ post.url | prepend: site.baseurl }}">Read the full post and comments</a>
     {% endfor %}
     
     
