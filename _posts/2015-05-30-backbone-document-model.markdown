@@ -14,7 +14,7 @@ Implementing this, I discovered something weird about Backbone models and collec
 model/collection structures by default; it's not possible to have a Backbone model which has Backbone models
 as properties of it.
 
-There is a few Backbone plugins which address this issue. The one I chose was [Backbone-DocumentModel][documentmodel].
+There are a few Backbone plugins which address this issue. The one I chose was [Backbone-DocumentModel][documentmodel].
 This plugin even allows you to specify custom types as children of a particular model; so you can extend Backbone.Model
 and have that type as a property of another Backbone.Model implementation.
 
