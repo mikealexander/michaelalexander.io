@@ -20,7 +20,7 @@ and have that type as a property of another Backbone.Model implementation.
 
 It looks like the [Backbone-DocumentModel][documentmodel] project on Github might have been abandoned.  You'll notice if you try
 install it through Bower, the latest version available is 0.6.0 although the version you'll actually want is 0.6.4.  This is
-because the owner of the repo has not created a version for 0.6.4 on Github.  As a work-around, [I forked their repo][myrepo],
+because the owner of the repo has not created a release for 0.6.4.  As a work-around, [I forked their repo][myrepo],
 created a version for 0.6.4 and registered it as a fresh Bower module.  I've named it backbone.documentmodel (as opposed
 to backbone-documentmodel which is the original).
 
