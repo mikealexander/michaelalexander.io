@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/hcfmike
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://michaelalexander.io
+  * I am hcfmike (https://keybase.io/hcfmike) on keybase.
+  * I have a public key ASBc-YBD50Z_i8gZuigt5soeKGjt1TZivu9eAk3NIhrWKAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ee6b7ce9296a164f6920ac6897e8b910df9397581f507d26aa6381dcb925bc810a",
+            "host": "keybase.io",
+            "kid": "01205cf98043e7467f8bc819ba282de6ca1e2868edd53662beef5e024dcd221ad6280a",
+            "uid": "da3ad908b423195c8ad78c8799f0b319",
+            "username": "hcfmike"
+        },
+        "service": {
+            "hostname": "michaelalexander.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1485880408,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1485880355,
+        "hash": "708edf9db42f6e5cf2236664b00c4169b2959e63dcf05a8a985ef09c2b4e5e61911e804db5c856100e32245cb2c4166c0b2b4b3166d300bf7d62b2146cb2aa62",
+        "seqno": 826890
+    },
+    "prev": "2f16ade5f60e623f09eec2e6a1cf0d8e1f53509de3baba3028d594d7e9dc7ee8",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXPmAQ+dGf4vIGbooLebKHiho7dU2Yr7vXgJNzSIa1igKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZWU2YjdjZTkyOTZhMTY0ZjY5MjBhYzY4OTdlOGI5MTBkZjkzOTc1ODFmNTA3ZDI2YWE2MzgxZGNiOTI1YmM4MTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNWNmOTgwNDNlNzQ2N2Y4YmM4MTliYTI4MmRlNmNhMWUyODY4ZWRkNTM2NjJiZWVmNWUwMjRkY2QyMjFhZDYyODBhIiwidWlkIjoiZGEzYWQ5MDhiNDIzMTk1YzhhZDc4Yzg3OTlmMGIzMTkiLCJ1c2VybmFtZSI6ImhjZm1pa2UifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im1pY2hhZWxhbGV4YW5kZXIuaW8iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDg1ODgwNDA4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODU4ODAzNTUsImhhc2giOiI3MDhlZGY5ZGI0MmY2ZTVjZjIyMzY2NjRiMDBjNDE2OWIyOTU5ZTYzZGNmMDVhOGE5ODVlZjA5YzJiNGU1ZTYxOTExZTgwNGRiNWM4NTYxMDBlMzIyNDVjYjJjNDE2NmMwYjJiNGIzMTY2ZDMwMGJmN2Q2MmIyMTQ2Y2IyYWE2MiIsInNlcW5vIjo4MjY4OTB9LCJwcmV2IjoiMmYxNmFkZTVmNjBlNjIzZjA5ZWVjMmU2YTFjZjBkOGUxZjUzNTA5ZGUzYmFiYTMwMjhkNTk0ZDdlOWRjN2VlOCIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQIQ4mF5o1AdsOMfAt7HfSxZkbkd9tY7oJT9NNlqcZvWiY3NigAWlphHdAoEd7viTLdSIIHWI/V6z+KJjxxXLuQKoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCff4KvgOr2Q++3x/+7BfL/xw+VZV1Yiw3l3TTS/7Bb6KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hcfmike
+
+==================================================================
